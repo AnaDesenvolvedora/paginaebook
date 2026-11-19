@@ -1199,36 +1199,13 @@
             </div>
         </div>
     </footer>
-
+    
     <!-- ===================== FLOATS ===================== -->
     <a href="https://wa.me/5531984987116" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
 
     <!-- ===================== SCRIPT (PARTE 2) ===================== -->
-    <!-- O código JavaScript com o array ebooks[] e a lógica será inserido aqui na Parte 2 -->
-
-</body>
-</html>
-
-    <!-- ===================== SCRIPT (PARTE 2) ===================== -->
     <script>
-        // ============================================================
-        // ARRAY DE E-BOOKS — EDITE AQUI PARA ADICIONAR NOVOS
-        // Para adicionar: copie um bloco { ... } e altere os campos.
-        // Campos:
-        //   id         → número único
-        //   titulo     → nome do e-book
-        //   categoria  → "Ferramentas" | "TikTok Shop" | "Gestão e Vendas" | "Comece Seu Negócio" | "Destaque"
-        //   preco      → preço promocional (número)
-        //   precoOld   → preço riscado (número) — use null se não quiser
-        //   descCurta  → texto curto para o card
-        //   descLonga  → texto completo para o modal
-        //   beneficios → array de strings (4 itens)
-        //   icone      → classe Font Awesome
-        //   capa       → "ferramentas" | "tiktok" | "gestao" | "empreendedor" | "premium" | "combo"
-        //   subtitulo  → texto pequeno abaixo do título na capa
-        //   destaque   → true/false (card com borda âmbar)
-        //   link       → URL de checkout Kiwify (placeholder "#" até você colar)
-        // ============================================================
+
 
         const ebooks = [
             // ══════════════════════════════════════════════════════
@@ -1988,8 +1965,11 @@
                 }
             }))
         };
-        const scriptLd = document.createElement('script');
+                const scriptLd = document.createElement('script');
         scriptLd.type = 'application/ld+json';
         scriptLd.textContent = JSON.stringify(jsonLd);
         document.head.appendChild(scriptLd);
     </script>
+
+</body>
+</html>
